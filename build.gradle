@@ -1,0 +1,21 @@
+plugins {
+  id 'base'
+}
+
+ext {
+}
+
+repositories {
+}
+
+configurations {
+}
+
+dependencies {
+}
+
+
+clean {
+}
+
+
