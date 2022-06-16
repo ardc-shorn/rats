@@ -1,24 +1,19 @@
 {
-  "name": "raid",
+  "name": "raids",
   "version": "0.0.1",
   "description": "RAiD API Test Suite",
-  "private": true,
-  "license": "MIT",
   "scripts": {
-    "tsc": "tsc --noEmit --baseUrl src"
+    "build": "tsc",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/jsonwebtoken": "8.5.8",
+    "jsonwebtoken": "8.5.1",
+    "node-fetch": "3.2.6",
     "@types/jest": "28.1.1",
-    "@types/node": "16.11.7"
-  },
-  "dependencies": {
     "jest": "28.1.1",
     "ts-jest": "28.0.5",
-    "json5": "2.2.1",
-    "zod": "3.17.3",
-    "node-fetch": "3.2.6",
-    "jsonwebtoken": "8.5.1"
+    "typescript": "4.7.3",
+    "ts-node": "10.8.1"
   }
-  
 }
