@@ -1,5 +1,3 @@
-import {doNothing} from "../src/empty";
-import fetch from "node-fetch";
 import {getRoot} from "../src/RaidApi";
 
 const apiBase = "https://api.raid.org.au/v1";
