@@ -1,4 +1,4 @@
-import {doNothing} from "../src/empty";
+import {doNothing} from "../empty";
 
 describe("Empty", () => {
 
