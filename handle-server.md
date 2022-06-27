@@ -1,7 +1,7 @@
 RAID to ARDC handle server
 
 Registering a handle infrastructure:
-Handle server registers with "Global Haddle Infrastructure" manually.
+Handle server registers with "Global Handle Infrastructure" manually.
 
 * handle server is assigned a prefix by global infra
 * global infra stores a mapping between the prefix and the handler
